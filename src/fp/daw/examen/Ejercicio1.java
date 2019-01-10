@@ -1,5 +1,7 @@
 package fp.daw.examen;
 
+import java.util.Random;
+
 public class Ejercicio1 {
 
 	/* 
@@ -26,7 +28,11 @@ public class Ejercicio1 {
 	 */
 	
 	public static void main(String[] args) {
+	     Random r = new Random();
+	     int nums;
+	     nums = (r.nextInt(91) + 10); 
+	     System.out.println(nums);
 		
 	}
-	
+ 
 }

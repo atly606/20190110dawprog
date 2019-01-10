@@ -1,5 +1,7 @@
 package fp.daw.examen;
 
+import java.util.Scanner;
+
 public class Ejercicio3 {
 
 	/* 
@@ -32,7 +34,18 @@ public class Ejercicio3 {
 	 *       
 	 */  
 	
-	public static ...
+	public static void main1(String[] args) {
+	  int num2=0;
+	  for(int i=0; i<=7; i++) {
+		  int num =0;
+			  while(num<=num2) {
+				  System.out.print("*");
+				  num++;
+			  }
+			  num2++;
+			  System.out.println("");
+	  }
+	}
 
 	
 	public static void mostrarEscalera(String [] escalera) {

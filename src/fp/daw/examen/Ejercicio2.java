@@ -12,8 +12,16 @@ public class Ejercicio2 {
 	 *  
 	 */
 	
-	public static ...
-	
+	public static void main1(String[] args) {
+		int [] array= new int[array.length];
+		for (int i = 0; i<array.length; i++) {
+		
+			System.out.println(array[i]);
+		}
+		for(int i=0;i<array[0].length;i++){
+		System.out.println(array[i]);
+	}
+	}
 	
 	/*
 	 * 2,5 puntos
